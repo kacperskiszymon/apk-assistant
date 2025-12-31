@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.env
+memory/apk_memory.db

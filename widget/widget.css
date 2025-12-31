@@ -1,0 +1,80 @@
+#apk-widget {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 320px;
+  height: 420px;
+  background: #0b0b0f;
+  color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.15);
+  display: none;
+  flex-direction: column;
+  font-family: system-ui, sans-serif;
+  z-index: 9999;
+}
+
+#apk-header {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#apk-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.apk-msg {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.apk-user {
+  text-align: right;
+  color: #67e8f9;
+}
+
+.apk-bot {
+  text-align: left;
+  color: #e5e7eb;
+}
+
+#apk-input {
+  display: flex;
+  border-top: 1px solid #222;
+}
+
+#apk-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #0b0b0f;
+  color: #fff;
+}
+
+#apk-input button {
+  width: 50px;
+  border: none;
+  background: #22d3ee;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#apk-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 9999;
+}
